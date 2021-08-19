@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:black;
+}
+/* navbar styling */
+.navbar{
+    background-color: black;
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;    
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background-color: royalblue;
+
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a { 
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;   
+}
+.navbar .logo a span{
+    color: royalblue;
+    transition: color 0.3s ease;
+} 
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left:25px ; 
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: royalblue;
+}
+
+
+/* menu btn styling */
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+
+ /* home section styling */
+ .home{
+     display: flex;
+     background: url("images/pexels-messala-ciulla-1162643.jpg") no-repeat center;
+     height: 100vh;
+     color: #fff;
+     min-height: 500px;
+     font-family: 'Ubuntu', sans-serif; 
+ } 
+ .home .max-width{
+     margin: auto 0 auto 40px;
+     
+ }
+ .home .home-content .text-1{
+     font-size: 27px;
+ }
+ .home .home-content .text-2{
+     font-size: 75px;
+     font-weight: 600;
+     margin-left: -3px;
+ }
+ .home .home-content .text-3{
+     font-size: 48px;
+     margin: 5px 0;
+ }
+ .home .home-content .text-3 span{
+     color: royalblue;
+     font-weight: 500;
+ }
+
+ /* skill sectio styling */
+
+.skill-section img{
+    width: 100%;
+}
+
+.contact-me{
+    margin: 100px 0;
+    text-align: center;
+}
+h1{
+  color:  #66BFBF;
+  font-size:4.5rem;
+  margin-top: 50px auto 0;
+  font-family: 'Sacramento', cursive;
+  padding-top: 100px;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto ;
+  text-align: left;
+  line-height: 1.5;
+
+}
+.profile-img{
+  width: 15%;
+  margin-left: 565px;
+  text-align: center;
+}
+.code-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.chillies-img{
+  width: 25%;
+  margin-right: 30px;
+  float: right;
+}
+.contact-img{
+  width: 25%;
+  
+}
+.Intro{
+  width:30%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #fff;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+
+
+.middle-container{
+  margin: 100px 0;
+  background: url('./images/pexels-digital-buggu-368685.jpg');
+}
+
+h2{
+  color:  #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  padding-bottom: 10px;
+  text-align: center;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+p{
+  line-height: 1.5;
+  color:#fff;
+}
+.skills{
+    margin-bottom: 10px;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px auto;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.btn {
+  background: royalblue;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  
+}
+
+.btn:hover {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #329c87, #315741);
+  background-image: -moz-linear-gradient(top, #329c87, #315741);
+  background-image: -ms-linear-gradient(top, #329c87, #315741);
+  background-image: -o-linear-gradient(top, #329c87, #315741);
+  background-image: linear-gradient(to bottom, #329c87, #315741);
+  text-decoration: none;
+  
+}
+.bottom-container{
+    background-color:royalblue;
+    padding: 50px 0 20px;
+    text-align: center;
+
+}
+a{
+  color:wheat;
+  text-decoration: none;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  font-size: 0.75rem;
+  color: #EAF6F6;
+  padding: 20px 0 ;
+}
